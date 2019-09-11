@@ -16,7 +16,7 @@ hambuger.addEventListener("click",()=>{
 
 menu.addEventListener("click",()=>{
   navLinks.classList.toggle("open");
-  navInfo.className="hidden";
+  navInfo.classList.toggle("hidden")
 
 })
 
