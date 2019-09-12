@@ -6,48 +6,77 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- font -->
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- css -->
   <link rel="stylesheet" href="./style/style.css">
   <link rel="stylesheet" href="./style/responsive.css">
+  <link rel="stylesheet" href="./style/button_animation.css">
   <title>Portfolio/heng</title>
 </head>
 <body>
   <div class="container">
-
-
-    <nav>
-      <div class="menu_hambuger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-        <ul class="nav_links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skill</a></li>
-          <li><a href="#">Projects</a></li>
+      <nav>
+          <div class="logo">
+                <img src="./asset/logo.png" alt="">
+            </div>
+          <div class="menu_hambuger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+            <ul class="nav_links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Skill</a></li>
+              <li><a href="#">Projects</a></li>
+              
+            </ul>
+          </nav>
+      
+      
+          <section>
+            <div class="menu">
+                <span class="title">Menu</span>
+              <span></span>
+              <div class="blurred">
+                <span></span>
+                <span></span>
+            </div>
+            <svg>
+                <defs>
+                  <filter id='goo'>
+                  <feGaussianBlur in='SourceGraphic' 
+                  stdDeviation='10' result='name'/>
+                    <feColorMatrix in='name' mode='matrix'
+                        values='1 0 0 0 0
+                                0 1 0 0 0 
+                                0 0 1 0 0
+                                0 0 0 30 -15 ' result='aab'/>
+                    <feBlend in='SourceGraphic' in2='aab'/>
+                  </filter>
+                </defs>
+                </svg>
+      
+            </div>
+            <div class="info">
+              <h1>Oh hello</h1>
+              <h4>An entry-level web developer who is able to build Web sites <br> 
+                from layout,programming to UX. With abilities to develop <br>
+                  and manage projects using  Git and the Agile. Skilled in<br> 
+                  conceptualizing, designing, development</h4>
+            </div>
           
-        </ul>
-      </nav>
-
-      
-      <section>
-        <div class="menu">
-          menu
-        </div>
-        <div class="info">
-          <h1>Oh hello</h1>
-          <h4>An entry-level web developer who is able to build Web sites <br> 
-            from layout,programming to UX. With abilities to develop <br>
-              and manage projects using  Git and the Agile. Skilled in<br> 
-              conceptualizing, designing, development</h4>
-        </div>
-      
-        <div class="computer">
-          <img src="./asset/2.png" alt="">
-        </div>
-      </section>
+            <div class="computer">
+              <img src="./asset/2.png" alt="">
+            </div>
+          </section>
 
   </div>
+
+  
+
+
 
 
   
