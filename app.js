@@ -1,10 +1,12 @@
 
+// import simpleParallax from 'simple-parallax-js';
 
 const hambuger=document.querySelector(".menu_hambuger");
 const navLinks=document.querySelector(".nav_links");
 const links=document.querySelectorAll(".nav_links li");
 const menu=document.querySelector(".menu");
 const navInfo=document.querySelector(".info");
+
 
 hambuger.addEventListener("click",()=>{
   navLinks.classList.toggle("open");
@@ -21,3 +23,8 @@ menu.addEventListener("click",()=>{
 })
 
 
+
+var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image, {
+	scale: 2
+});
