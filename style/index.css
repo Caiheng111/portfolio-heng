@@ -23,27 +23,27 @@ body{
 
 .container_one{
   height:100vh;
+  width: 100vw;
   background: rgb(72,43,245);
   background-attachment: fixed;
 
 }
 .logo_image{
-  min-height: 400px;
+  height: 100vh;
   overflow: hidden;
   position: relative;
   padding: 4em 8em;
+  box-sizing: border-box;
 
 }
 
 .logo1{
-  float: left;
   position: fixed;
   height: 100px;
 
 }
 
 .logo2{
-    float: left;
    position: absolute;
    height: 100px;
 
@@ -95,7 +95,8 @@ section .computer img{
 .nav_links{
   padding-left:300px;
   padding-top:100px;
-  position: fixed;
+  position: absolute;
+  top:-20px;
   height: 100%;
   width: 100%;
   list-style: none;
@@ -143,8 +144,19 @@ section .computer img{
 
 
 .container_two{
-  height:90vh;
-  background: rgb(245,190,90);
+  height:100vh;
+  width: 100vw;
+  background: rgb(60,44,105);
+}
+
+
+.container_two .info{
+  margin:0 auto;
+  border:1px solid white;
+  height: 100%;
+  width: 80%;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
 }
 
  
@@ -152,9 +164,12 @@ section .computer img{
 
 
 
+
+/* section 3 */
+
 .container_three{
   height: 30vh;
-  background: rgb(60,44,105);
+  background: rgb(245,190,90);
 }
 
 
