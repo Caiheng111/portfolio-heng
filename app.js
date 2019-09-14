@@ -24,7 +24,27 @@ menu.addEventListener("click",()=>{
 
 
 
-var image = document.getElementsByClassName('thumbnail');
-new simpleParallax(image, {
-	scale: 2
+// var image = document.getElementsByClassName('thumbnail');
+// new simpleParallax(image, {
+// 	scale: 2
+// });
+
+
+var setLogo = function() {
+
+  $('.logo2').each(function() {
+    $(this).css('top',
+      $('.logo1').offset().top -
+      $(this).closest('.logo_image').offset().top
+    );
+  });
+
+};
+
+$(document).scroll(function() {
+  setLogo();
 });
+
+setLogo();
+
+

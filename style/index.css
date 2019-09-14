@@ -1,7 +1,7 @@
 
 
 
-@import "./home.css";
+/* @import "./home.css"; */
 /* @import "./about.css"; */
 @import "./responsive.css";
 @import "./home_menu.css";
@@ -17,6 +17,149 @@ body{
 .hidden{
   display: none;
 }
+
+
+
+
+.container_one{
+  height:100vh;
+  background: rgb(72,43,245);
+  background-attachment: fixed;
+
+}
+.logo_image{
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding: 4em 8em;
+
+}
+
+.logo1{
+  float: left;
+  position: fixed;
+  height: 100px;
+
+}
+
+.logo2{
+    float: left;
+   position: absolute;
+   height: 100px;
+
+ }
+
+section .info{
+  margin-left:80px;
+}
+
+section .info span{
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  position: absolute;
+  top:520px;
+  margin-left:50px;
+  color:rgb(252,88,159);
+
+}
+
+section .info h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  position: absolute;
+  top:520px;
+  margin-left:50px;
+  color:rgb(252,88,159);
+
+}
+section .info h4{
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top:630px;
+  margin-left:50px;
+  color:#fc589f;
+  letter-spacing: 2px;
+}
+section .computer{
+  position: absolute;
+  bottom:-20px;
+  right:40px;
+}
+section .computer img{
+  height: 600px;
+}
+
+
+
+.nav_links{
+  padding-left:300px;
+  padding-top:100px;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  background: #fc589f;
+  clip-path: circle(100px at 100% -20%);
+  -webkit-ip-path:circle(100px at 100% -10%);
+  transition: all 1s ease-out;
+
+}
+
+
+.nav_links li a{
+  display:block;
+  font-size:80px;
+  font-weight: 900;
+  color:rgb(72,43,245);
+  font-family: 'Lato', sans-serif;
+  margin-bottom:40px;
+  text-decoration: none;
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+.nav_links li a:hover{
+  color:rgb(24,22,95);
+
+}
+.thumbnail{
+  position: static;
+  top:30px;
+  left:2000px;
+}
+
+
+
+.nav_links.open{
+  clip-path: circle(2000px at 90% -10%);
+  -webkit-ip-path:circle(2000px at 90% -10%);
+  pointer-events: all;
+}
+
+
+/* section2 */
+
+
+
+.container_two{
+  height:90vh;
+  background: rgb(245,190,90);
+}
+
+ 
+
+
+
+
+.container_three{
+  height: 30vh;
+  background: rgb(60,44,105);
+}
+
+
+
+
 
 
 
