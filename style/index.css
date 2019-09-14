@@ -2,8 +2,9 @@
 
 
 @import "./home.css";
+/* @import "./about.css"; */
 @import "./responsive.css";
-@import "./button_animation.css";
+@import "./home_menu.css";
 
 *{
   margin:0;
