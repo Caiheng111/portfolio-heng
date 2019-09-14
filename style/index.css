@@ -32,15 +32,13 @@ body{
   height: 100vh;
   overflow: hidden;
   position: relative;
-  padding: 4em 8em;
-  box-sizing: border-box;
+  padding: 4em 8em 0 8em;
 
 }
 
 .logo1{
   position: fixed;
   height: 100px;
-
 }
 
 .logo2{
@@ -152,11 +150,91 @@ section .computer img{
 
 .container_two .info{
   margin:0 auto;
-  border:1px solid white;
+  /* border:1px solid white; */
   height: 100%;
-  width: 80%;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
+  width: 90%;
+
+}
+
+.container_two .content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+.container_two .photo img{
+  position: absolute;
+  bottom: 0;
+  height: 780px;
+
+}
+.container_two .intro .hello{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  bottom:340px;
+  left:420px;
+  font-size: 90px;
+  transform: rotate(-90deg);
+  color:white;
+}
+
+
+.container_two .intro h1{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  bottom:340px;
+  left:470px;
+  font-size: 90px;
+  transform: rotate(-90deg);
+  color:white;
+}
+
+.container_two .intro h3{
+  font-size: 18px;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  padding-top:600px;
+  padding-right:20px;
+
+  color:white;
+}
+.coder h1{
+  font-size: 60px;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  top:250px;
+  right:120px;
+  color:white;
+}
+
+.coder p{
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  bottom:450px;
+  right:100px;
+  color:white;
+}
+
+.coder h2{
+  font-size: 40px;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  top:480px;
+  right:180px;
+  color:white;
+}
+
+.coder .ux_designer{
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  bottom:270px;
+  right:250px;
+  color:white;
 }
 
  
@@ -171,6 +249,9 @@ section .computer img{
   height: 30vh;
   background: rgb(245,190,90);
 }
+
+
+
 
 
 
