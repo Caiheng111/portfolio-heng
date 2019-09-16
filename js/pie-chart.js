@@ -1,24 +1,21 @@
 
 
-$(document).ready(function(){
-  var ctx = $("#mycanvas").get(0).getContext("2d");
-  //pie chart data
-  //sum of values = 360
-  var data = [
-    {
-      value: 270,
-      color: "cornflowerblue",
-      highlight: "lightskyblue",
-      label: "Corn Flower Blue"
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+
+    type: 'doughnut',
+    data: {
+        labels: ['Developer', 'Designer'],
+        datasets: [{
+          data: [330,30],
+          backgroundColor:['#1b1363','#00C8FF'],
+          borderColor:['#1b1363','#00C8FF'],
+          hoverBorderColor:'white'
+        }],
+       
+
     },
-    {
-      value: 50,
-      color: "lightgreen",
-      highlight: "yellowgreen",
-      label: "Lightgreen"
-    },
-  
-  ];
-  //draw
-  var piechart = new Chart(ctx).Pie(data);
+
+
+    options: {}
 });

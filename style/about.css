@@ -130,8 +130,6 @@ section .backfround img{
 
 }
 
-
-
 .nav_links.open{
   clip-path: circle(2000px at 90% -10%);
   -webkit-ip-path:circle(2000px at 90% -10%);
@@ -177,7 +175,7 @@ section .backfround img{
   color:#1b1363;
   font-family: 'Lato', sans-serif;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 
 }
 
@@ -204,7 +202,7 @@ section .backfround img{
 .container_two .intro p{
   text-align: justify;
   font-family: 'Lato', sans-serif;
-  font-size:20px;
+  font-size:18px;
   font-weight: 1200;
   color:#1b1363;
   position: relative;
@@ -232,7 +230,7 @@ section .backfround img{
 
 .container_two .details .details_item{
   font-family: 'Lato', sans-serif;
-  font-size:20px;
+  font-size:18px;
   font-weight: 1200;
   color:#1b1363;
 }
@@ -259,10 +257,9 @@ section .backfround img{
 
 }
 
-/* #chartdiv {
-  width: 100%;
-  height: 500px;
-} */
+.container_two .cavas{
+  margin-top:80px;
+}
 
 
 
