@@ -23,11 +23,10 @@ menu.addEventListener("click",()=>{
 })
 
 
-
-// var image = document.getElementsByClassName('thumbnail');
-// new simpleParallax(image, {
-// 	scale: 2
-// });
+var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image, {
+	orientation: 'right'
+});
 
 
 var setLogo = function() {
@@ -46,5 +45,7 @@ $(document).scroll(function() {
 });
 
 setLogo();
+
+
 
 
