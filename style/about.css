@@ -258,8 +258,56 @@ section .backfround img{
 }
 
 .container_two .cavas{
-  margin-top:80px;
+  margin-top:50px;
 }
+
+.container_two .part_information{
+  font-size: 15px;
+  color:#1b1363;
+  font-family: 'Lato', sans-serif;
+  height: 35vh;
+  /* border: 1px solid white; */
+  padding-top:50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1.5fr 1fr;
+}
+
+.container_two .part_information .info_left{
+  padding-left:50px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+}
+
+.container_two .part_information .info_right{
+  padding-left:50px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+ 
+}
+
+.container_two .part_information .info_bottom{
+  /* padding-left:30px; */
+  text-align: justify;
+  grid-column: 1/3;
+  grid-row: 2/3;
+ 
+}
+
+.container_two .part_information h2{
+ margin-bottom: 10px;
+
+}
+
+.container_two .part_information h4{
+  margin-bottom: 8px;
+ 
+ }
+
+
 
 
 
