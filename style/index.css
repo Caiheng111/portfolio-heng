@@ -4,8 +4,8 @@
 /* @import "./home.css"; */
 /* @import "./about.css"; */
 @import "./responsive.css";
-@import "./home_menu.css";
-@import "./scroll_animation.css";
+@import "./home_menu/home_page.css";
+/* @import "./scroll_animation.css"; */
 
 
 *{
@@ -26,7 +26,7 @@ body{
 
 
 .container_one{
-  height:100vh;
+  height:97vh;
   width: 100vw;
   background: rgb(72,43,245);
   background-attachment: fixed;
@@ -73,8 +73,6 @@ section .info h1{
   top:550px;
   margin-left:20px;
   color:rgb(252,88,159);
-  /* color:white; */
-  /* color:rgb(245,190,90); */
 
 }
 section .info h4{
@@ -108,8 +106,8 @@ section .computer img{
   width: 100%;
   list-style: none;
   background: #fc589f;
-  clip-path: circle(100px at 100% -20%);
-  -webkit-ip-path:circle(100px at 100% -10%);
+  clip-path: circle(100px at 110% -20%);
+  -webkit-ip-path:circle(100px at 110% -10%);
   transition: all 1s ease-out;
 
 }
@@ -277,8 +275,8 @@ footer .container .content{
 }
 
 footer .content .logo3{
-  margin-left:120px;
-  height: 14vh;
+  margin-left:140px;
+  height: 12vh;
 
 }
 footer .content{

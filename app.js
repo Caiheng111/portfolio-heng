@@ -6,6 +6,7 @@ const navLinks=document.querySelector(".nav_links");
 const links=document.querySelectorAll(".nav_links li");
 const menu=document.querySelector(".menu");
 const navInfo=document.querySelector(".info");
+const iconScroll=document.querySelector(".icon-scroll");
 
 
 hambuger.addEventListener("click",()=>{
@@ -19,6 +20,8 @@ hambuger.addEventListener("click",()=>{
 menu.addEventListener("click",()=>{
   navLinks.classList.toggle("open");
   navInfo.classList.toggle("hidden")
+  iconScroll.classList.toggle("hidden");
+  
 
 })
 

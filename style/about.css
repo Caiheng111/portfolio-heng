@@ -1,4 +1,10 @@
-@import "./about_menu.css";
+
+
+
+
+@import "./responsive.css";
+@import ".//home_menu/about_page.css";
+
 
 
 *{
@@ -8,6 +14,10 @@
 }
 body{
   cursor: url(../asset/cursor.png),pointer;
+  overflow-x: hidden;
+
+
+ 
 }
 .hidden{
   display: none;
@@ -15,62 +25,90 @@ body{
 
 
 .container_one{
-  height:100vh;
+  height:97vh;
+  width: 100vw;
   background: #1b1363;
   background-attachment: fixed;
+
+}
+.logo_image{
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  padding: 4em 8em 0 8em;
+
 }
 
+.logo1{
+  position: fixed;
+  height: 100px;
+}
+
+.logo2{
+   position: absolute;
+   height: 100px;
+
+ }
+
 section .info{
-  margin-left:80px;
+  margin-left:10%;
+
+}
+
+section .info span{
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  position: absolute;
+  top:520px;
+  margin-left:50px;
+  color:#00C8FF;
+
 }
 
 section .info h1{
   font-family: 'Lato', sans-serif;
-  font-size: 100px;
+  font-size: 110px;
   position: absolute;
-  top:600px;
-  margin-left:50px;
-  color:#00c8ff;
+  top:550px;
+  margin-left:10px;
+  color:#00C8FF;
 
 }
 
-section .info h4{
+section .info .me{
   font-family: 'Lato', sans-serif;
-  font-size: 25px;
+  font-size: 110px;
   position: absolute;
-  top:730px;
-  margin-left:50px;
-  color:#00c8ff;
-  letter-spacing: 2px;
+  top:650px;
+  margin-left:10px;
+  color:#00C8FF;
+
 }
 
-section .computer{
+section .backfround{
   position: absolute;
-  bottom:-20px;
+  bottom:-10px;
   right:40px;
 }
-section .computer img{
+section .backfround img{
   height: 600px;
+  padding-bottom:40px;
+  padding-right: 10px;
 }
-.logo1{
-  float: left;
-  position: fixed;
-  height: 100px;
-  top:30px;
-  left:150px;
-}
+
 
 
 .nav_links{
   padding-left:300px;
   padding-top:100px;
-  position: fixed;
+  position: absolute;
+  top:-20px;
   height: 100%;
   width: 100%;
   list-style: none;
-  background: #00c8ff;
-  clip-path: circle(100px at 100% -20%);
-  -webkit-ip-path:circle(100px at 100% -10%);
+  background: #fc589f;
+  clip-path: circle(100px at 110% -20%);
+  -webkit-ip-path:circle(100px at 110% -10%);
   transition: all 1s ease-out;
 
 }
@@ -94,6 +132,7 @@ section .computer img{
 }
 
 
+
 .nav_links.open{
   clip-path: circle(2000px at 90% -10%);
   -webkit-ip-path:circle(2000px at 90% -10%);
@@ -101,62 +140,99 @@ section .computer img{
 }
 
 
-
-
 /* section2 */
 
+
+
 .container_two{
-  overflow: hidden;
-  position: relative;
   height:100vh;
-  background: #ff3a49;
+  width: 100%;
+  background: rgb(236,77,80);
 }
 
-.container_two .thumbnail{
-  position: absolute;
-  right:100px;
-  top:300px;
+.container_two .infor{
+  height: 90vh;
+  width: 80vw;
+  
+
+}
+/* 
+.container_two .background img{
+  height: 300px;
+
+} */
+
+
+
+
+
+
+/* section3 */
+
+footer .container{
+  width: 100vw;
+  height: 20vh;
+
+  background: #000;
+  display: flex;
+  align-items: center;
+
 }
 
-.container_two h2{
+footer .container .content{
+  height: 80%;
+  width: 90%;
+  /* border:1px solid white; */
+}
+
+footer .content .logo3{
+  margin-left:140px;
+  height: 12vh;
+
+}
+footer .content{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .contact_icons{
+  display: flex;
+  align-items: center;
+}
+
+footer .contact_icons .icon{
+  font-size: 25px;
+  color:white;
+  margin-left:80px;
+  margin-right: 20px;
+}
+
+
+
+footer .right_info{
+  color:white;
+  padding-top:30px;
+}
+footer .right_info .copyright{
+  font-size: 14px;
   font-family: 'Lato', sans-serif;
-  font-size: 60px;
-  position: absolute;
-  top:530px;
   margin-left:150px;
-  color:#1b1363;
-
-}
-
-.container_two h3{
-  font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  position: absolute;
-  top:600px;
-
-  margin-left:150px;
-  color:#1b1363;
-
+  margin-top:20px;
 }
 
 
-.container_two h4{
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  position: absolute;
-  top:700px;
-
-  margin-left:150px;
-  color:#1b1363;
-  letter-spacing: 2px;
-
-}
 
 
- .container_three{
-  height: 100vh;
-  background:#00c8ff;
-} 
+
+
+
+
+
+
+
+
+
+
 
 
 
