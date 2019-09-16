@@ -14,10 +14,11 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- css -->
   <link rel="stylesheet" href="./style/about.css">
-  <!-- js animation -->
-  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js">
-  
-  </script>
+  <!-- logo scroll animation -->
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+  <!-- pie chart -->
+  <script src="./js/Chart.js"></script>
+	<script src="./js/jquery-2.1.4.min.js"></script>
 
 
   <title>Portfolio/About Me</title>
@@ -88,7 +89,9 @@
 
           <div class="infor">
                <div class="pie-chart">
-                
+                  <!-- <div id="chartdiv"></div> -->
+                  <canvas id="mycanvas"></canvas>
+         
               </div>
               <div class="intro">
 
@@ -98,21 +101,22 @@
                 <p>An entry-level web developer who is able to build Web sites from layout,
                     programming to UX. With abilities to develop and manage projects using
                     Git and the Agile. Skilled in conceptualizing, designing, development,
-                    and deploying websites using the latest front-end techniques.</p>
+                    and deploying websites using the latest front-end techniques.and manage projects using
+                    Git and the Agile. Skilled in conceptualizing.</p>
                 </div>
 
                 <div class="details">
                   <div class="details_item">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span>Location: &nbsp; &nbsp; &nbsp;&nbsp;318 Russell Street,Melbourne VIC 3000</span>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span>Location:&nbsp;&nbsp;318 Russell Street,Melbourne VIC 3000</span>
                   </div>
                   <div class="details_item">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>Age: &nbsp; &nbsp; &nbsp;&nbsp;27</span>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>Age:&nbsp;&nbsp;27</span>
                   </div>
                   <div class="details_item">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>Phone: &nbsp; &nbsp; &nbsp;&nbsp;0410780822</span>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>Phone:&nbsp;&nbsp;0410780822</span>
                   </div>
                   <div class="details_item">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>Email: &nbsp; &nbsp; &nbsp;&nbsp;ianyanheng822@gmail.com</span>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>Email:&nbsp;&nbsp;ianyanheng822@gmail.com</span>
                   </div>
 
                 </div>
@@ -161,7 +165,10 @@
 
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="./app.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/pie-chart.js"></script>
+ 
+
 
 </body>
 </html>

@@ -156,16 +156,16 @@ section .backfround img{
 
 .container_two .infor{
   height: 90%;
-  width: 100%;
+  width: 103%;
   margin:0 auto;
-  border: 1px solid #1b1363;
-
+  /* border: 1px solid #1b1363; */
   display: grid;
   grid-template-columns: 1fr 1fr;
 
 }
 
 .container_two .intro{
+
   padding-top:50px;
   /* border: 1px solid white; */
 
@@ -202,7 +202,7 @@ section .backfround img{
 }
 
 .container_two .intro p{
-
+  text-align: justify;
   font-family: 'Lato', sans-serif;
   font-size:20px;
   font-weight: 1200;
@@ -217,10 +217,19 @@ section .backfround img{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-row-gap:20px;
-  margin-bottom: 40px;
-
-  
+  margin-bottom: 80px;
+  position: relative;
 }
+.container_two .details::before{
+  content: "";
+  height: 1px;
+  width: 600px;
+  background: #1b1363;
+  position: absolute;
+  bottom:-20px;
+}
+
+
 .container_two .details .details_item{
   font-family: 'Lato', sans-serif;
   font-size:20px;
@@ -234,11 +243,11 @@ section .backfround img{
   width: 160px;
   height: 40px;
   padding:10px;
- background: transparent;
- border-radius: 10px;
- font-size: 15px;
- color:#1b1363;
- font-family: 'Lato', sans-serif;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  color:#1b1363;
+  font-family: 'Lato', sans-serif;
 
 }
 
@@ -249,6 +258,11 @@ section .backfround img{
  color:rgb(236,77,80);
 
 }
+
+/* #chartdiv {
+  width: 100%;
+  height: 500px;
+} */
 
 
 
