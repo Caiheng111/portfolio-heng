@@ -3,8 +3,8 @@
 
 
 @import "./responsive.css";
-@import "./home_menu/about_page.css";
-@import "./about_cards.css";
+@import "./about_css/cards.css";
+@import "./about_css/meun.css";
 
 
 
@@ -345,7 +345,9 @@ section .backfround img{
   grid-template-rows: 1fr;
 }
 
-
+/* .container_four .infor .interest_cards{
+  border:1px solid white;
+} */
 
 
 .container_four .infor .intro{
