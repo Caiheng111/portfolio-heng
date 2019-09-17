@@ -101,32 +101,45 @@
             <div class="information">
               <h1>Contact Information</h1>
               <h4> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;318 Russell Street,Melbourne,VIC 3000</h4>
-              <h4> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;+61 410780822</h4>
-              <h4><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;ianyanheng822@gmail.com</h4>
+              <h4> <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;+61 410780822</h4>
+              <h4><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;ianyanheng822@gmail.com</h4>
             </div>
 
             <div class="message">
 
-              <form action="" class="form">
+              <form action="https://formspree.io/ianyaheng822@gmail.com" method="POST">
                 <input type="text" placeholder="Plese enter your name"> <br>
-                <input type="text" placeholder="Plese enter your email"> <br>
-                <textarea name="" id="" cols="65" rows="15"></textarea> <br>
+                <input type="email" placeholder="Plese enter your email"> <br>
+                <textarea name="" id="" ></textarea> <br>
                 <button>Submit</button>
-
               </form>
 
             </div>
-
           </div>
 
-      
           <div class="map" id="map">
               <script>
-                  var map;
+                  var map, geocoder;
+
                   function initMap() {
+                    geocoder = new google.maps.Geocoder();
                     map = new google.maps.Map(document.getElementById('map'), {
-                      center: {lat: -34.397, lng: 150.644},
-                      zoom: 8
+                      zoom: 17
+                    });
+
+                    var address = '318 Rusell Street,Melbourne';
+                    
+
+                    geocoder.geocode( { 'address': address}, function(results, status) {
+                      if (status == 'OK') {
+                        map.setCenter(results[0].geometry.location);
+                        var marker = new google.maps.Marker({
+                            map: map,
+                            position: results[0].geometry.location
+                        });
+                      } else {
+                        console.log(status);
+                      }
                     });
                   }
                 </script>
@@ -135,15 +148,8 @@
               </script>   
           </div>
     
-
-  
-
         </div>
     </div>
-
-
-
-
 
 
 
