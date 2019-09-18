@@ -5,6 +5,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +13,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Anton|Saira+Stencil+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Poppins|Saira+Stencil+One&display=swap" rel="stylesheet">
   <!-- font awesome -->
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- css -->
-  <link rel="stylesheet" href="./style/contact/contact.css">
+  <link rel="stylesheet" href="./style/project/project.css">
   
   <!-- logo scroll animation -->
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
@@ -35,7 +35,7 @@
   <div class="container_one" id="parallax">
       <nav>
           <div class="logo_image">
-                <img src="./asset/logo.svg" alt="logo" class="logo1">
+                <img src="./asset/project_logo1.png" alt="logo" class="logo1">
             </div>
           <div class="menu_hambuger">
             <div class="line"></div>
@@ -45,8 +45,8 @@
             <ul class="nav_links">
               <li><a href="./index.html">Home</a></li>
               <li><a href="./about.html">About</a></li>
-              <li><a href="#">Skill</a></li>
-              <li><a href="./project.html">Projects</a></li>
+              <li><a href="./skill.html">Skill</a></li>
+              <li><a href="./proejct.html">Projects</a></li>
               <li><a href="./contact.html">Contact</a></li>
               
             </ul>
@@ -77,10 +77,10 @@
       
             </div>
             <div class="info">
-              <h1>CONTACT ME</h1>
+              <h1>PROJECTS</h1>
             </div>
             <div class="backfround">
-              <img src="./asset/contact_bg1.png" alt="background"  > 
+              <img src="./asset/project_bg1.png" alt="background"  > 
             </div>
             <div class="icon-scroll">  
             </div>
@@ -96,65 +96,53 @@
     <div class="logo_image">
         <a href="index.html"><img src="./asset/about_logo3.png" alt="logo" class="logo2"></a>
 
+      <div class="title">
+        <h1>Below you can see some projects I've been working on lately.
+          </h1>
+      </div>
+
+
         <div class="info">
 
-          <div class="contact_info">
-
-            <div class="information">
-              <h1>Contact Information</h1>
-              <h4> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;318 Russell Street,Melbourne,VIC 3000</h4>
-              <h4> <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;+61 410780822</h4>
-              <h4><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;ianyanheng822@gmail.com</h4>
+          <div class="project">
+            <div class="project_box">
+              <h2>01</h2>
+              <h3>Project One</h3>
+              <p>Technology Stack:SASS/Bootstrap4/
+                  React16/React-Router4/Webpack</p>
             </div>
-
-            <div class="message">
-
-              <form action="https://formspree.io/ianyaheng822@gmail.com" method="POST">
-                <input type="text" placeholder="Plese enter your name"> <br>
-                <input type="email" placeholder="Plese enter your email"> <br>
-                <textarea name="" id="" ></textarea> <br>
-                <button>Submit</button>
-              </form>
-
+          </div>
+          <div class="project">
+            <div class="project_box">
+              <h2>02</h2>
+              <h3>Project Two</h3>
+              <p>Technology Stack:SASS/Bootstrap4/
+                  React16/React-Router4/Webpack</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project_box">
+              <h2>03</h2>
+              <h3>Project Three</h3>
+              <p>Technology Stack:SASS/Bootstrap4/
+                  React16/React-Router4/Webpack</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project_box">
+              <h2>04</h2>
+              <h3>Project Four</h3>
+              <p>Technology Stack:SASS/Bootstrap4/
+                  React16/React-Router4/Webpack</p>
             </div>
           </div>
 
-       
 
-          <div class="map" id="map">
-            
-              <script>
-                  var map, geocoder;
 
-                  function initMap() {
-                    geocoder = new google.maps.Geocoder();
-                    map = new google.maps.Map(document.getElementById('map'), {
-                      zoom: 17
-                    });
 
-                    var address = '318 Rusell Street,Melbourne';
-                    
-
-                    geocoder.geocode( { 'address': address}, function(results, status) {
-                      if (status == 'OK') {
-                        map.setCenter(results[0].geometry.location);
-                        var marker = new google.maps.Marker({
-                            map: map,
-                            position: results[0].geometry.location
-                        });
-                      } else {
-                        console.log(status);
-                      }
-                    });
-                  }
-                </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNhEMV6hSc6lt7bnf-8UdsxdDW5X_QH9M&callback=initMap"
-                async defer>
-              </script>   
-          </div>
-    
         </div>
-    </div>
+    </div>  
+</div>
 
 
 

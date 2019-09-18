@@ -4,6 +4,9 @@
 
 
 
+
+
+
 /* @import "./responsive.css"; */
 @import "./menu.css";
 
@@ -30,7 +33,7 @@ body{
 .container_one{
   min-height:97vh;
   width: 100vw;
-  background: rgb(72,43,245);
+  background: rgb(245,190,90);
   background-attachment: fixed;
 
 }
@@ -64,7 +67,7 @@ section .info span{
   position: absolute;
   top:520px;
   margin-left:50px;
-  color:rgb(252,88,159);
+  color:rgb(72,43,245);
 
 }
 
@@ -74,7 +77,7 @@ section .info h1{
   position: absolute;
   top:580px;
   margin-left:-10px;
-  color:rgb(252,88,159);
+  color:rgb(72,43,245);
 
 }
 
@@ -84,7 +87,7 @@ section .info .me{
   position: absolute;
   top:650px;
   margin-left:10px;
-  color:rgb(252,88,159);
+  color:rgb(72,43,245);
 
 }
 
@@ -108,7 +111,7 @@ section .backfround img{
   height: 100%;
   width: 100%;
   list-style: none;
-  background: rgb(252,88,159);
+  background: rgb(72,43,245);
   clip-path: circle(100px at 110% -20%);
   -webkit-ip-path:circle(100px at 110% -10%);
   transition: all 1s ease-out;
@@ -147,104 +150,68 @@ section .backfround img{
 .container_two{
   min-height:100vh;
   width: 100vw;
-  background: rgb(60,44,105);
+  background: rgb(25,23,95);
+}
+
+.container_two .title h1{
+  margin-top:8%;
+  font-family: 'Lato', sans-serif;
+  color:#00C8FF;
+  font-size: 30px;
+  text-align: center;
 }
  
 .container_two .info{
-  height: 95%;
+  color:#00C8FF;
+  padding:0 8%;
+  height: 60%;
   width: 100%;
   margin:0 auto;
-  /* border:1px solid white; */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-}
-.container_two .map{
-  margin-bottom:10%;
-  margin-top:10%;
-  border-radius: 5px;
-}
-
-.container_two .info .information{
-  height: auto;
-  text-align: center;
-  padding-top:13%;
-  color:white;
-
-}
-
-
-.container_two .information h1{
-  font-family: 'Anton', sans-serif;
-  font-size: 25px;
-  letter-spacing: 1px;
-  margin-bottom: 5%;
-}
-
-.container_two .information h4{
-  color:wihte;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.container_two form{
-  height: auto;
-  width: 100%;
-  font-family: 'Lato', sans-serif;
-  margin-top:10%;
-}
-
-.container_two textarea,.container_two input,.container_two button{
-  background: transparent;
-  outline:none;
   border:1px solid white;
-  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
 
 }
 
-.container_two input{
-  display: block;
-  height: 25%;
-  width: 70%;
-  color:white;
-  font-size: 20px;
-  padding:5px;
-  font-family: 'Lato', sans-serif;
-  margin: 0 auto;
+.container_two .projects{
+  position: relative;
 }
 
-
-
-
-
-.container_two textarea{
-
-  height: 150px;
-  width: 70%;
-  margin-left:15%;
-  margin-bottom:5%;
+.container_two .project{
+  width: 20%;
+  height: 70%;
+  position: relative;
+  border: 1px solid white; 
 }
 
-.container_two button{
- margin-left:15%;
-  height: 30px;
-  width: 18%;
-  color:white;
-  font-size: 20px;
+.container_two .project h2{
+  position: absolute;
+  top:10%;
+  font-size:130px;
+  font-family: 'Saira Stencil One', cursive;
+  letter-spacing: 10px;
+  opacity: .5;
+  transition: 0.5s;
 }
 
-.container_two button:hover{
+.container_two .project h2:hover{
   cursor: pointer;
- background: white;
- color:rgb(60,44,105);
- }
+  top:-10%;
+}
 
 
-
-
-
-
+.container_two .project h2{
+  position: absolute;
+  top:10%;
+  font-size:130px;
+  font-family: 'Saira Stencil One', cursive;
+  letter-spacing: 10px;
+  opacity: .5;
+  transition: 0.5s;
+}
 
 
 
