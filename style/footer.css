@@ -1,0 +1,54 @@
+
+
+
+
+footer .container{
+  width: 100vw;
+  height: 20vh;
+
+  background: #000;
+  display: flex;
+  align-items: center;
+
+}
+
+footer .container .content{
+  height: 80%;
+  width: 90%;
+  /* border:1px solid white; */
+}
+
+footer .content .logo3{
+  margin-left:140px;
+  height: 12vh;
+
+}
+footer .content{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .contact_icons{
+  display: flex;
+  align-items: center;
+}
+
+footer .contact_icons .icon{
+  font-size: 25px;
+  color:white;
+  margin-left:80px;
+  margin-right: 20px;
+}
+
+
+
+footer .right_info{
+  color:white;
+  padding-top:30px;
+}
+footer .right_info .copyright{
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  margin-left:150px;
+  margin-top:20px;
+}
