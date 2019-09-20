@@ -21,14 +21,14 @@
 }
 .loader-container3 {
   height: 100%;
-  width: 54%;
+  width: 30%;
   background: rgb(236,77,80);
   box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.2);
   animation: loader 1s linear;
 }
 .loader-container4 {
   height: 100%;
-  width: 60%;
+  width: 30%;
   background: rgb(236,77,80);
   box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.2);
   animation: loader 1s linear;

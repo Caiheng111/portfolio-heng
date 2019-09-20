@@ -21,15 +21,13 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- css -->
   <link rel="stylesheet" href="./style/skill/skill.css">
-  
+
   <!-- logo scroll animation -->
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
   <!-- google map -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <!-- animate css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
-  <link rel="stylesheet" href="./style/skill/skill.css">
+  <link rel="stylesheet" href="./style/animate.css">
   
 
 
@@ -58,7 +56,7 @@
       </nav>
       <section class="sec1">
         <div class="content">
-            <div class="menu">
+            <div class="menu animated fadeInDown">
                 <span class="title">Menu</span>
               <span></span>
               <div class="blurred">
@@ -82,9 +80,9 @@
       
             </div>
             <div class="info">
-              <h1>Skills</h1>
+              <h1 class="animated fadeInLeftBig">Skills</h1>
             </div>
-            <div class="backfround">
+            <div class="backfround  animated fadeInDown">
               <img src="./asset/project_bg1.png" alt="background"  > 
             </div>
             <div class="icon-scroll">  
@@ -102,18 +100,18 @@
         <a href="index.html"><img src="./asset/about_logo3.png" alt="logo" class="logo2"></a>
 
       <div class="infor">
-        <div class="box1  animated fadeInLeft">
+        <div class="box1 wow animated fadeInLeft">
           <h1>MY SKILLS</h1>
 
         </div>
-        <div class="box2">
-            <i class="fa fa-file-code-o other_skills" aria-hidden="true"></i>
-
+        <div class="box2  wow animated fadeInRight">
+      
+             <i class="fa fa-file-code-o other_skills" aria-hidden="true"></i>
         </div>
         <div class="box3">
             <i class="fa fa-heart-o heart" aria-hidden="true"></i>
         </div>
-        <div class="box4">
+        <div class="box4 wow animated fadeInRight">
           <h3>+ &nbsp;Photoshop</h3>
           <h3>+ &nbsp;llustrator</h3>
           <h3>+ &nbsp;InDesign</h3>
@@ -123,21 +121,24 @@
 
         </div>
         <div class="box5">
-          <div class="font_end"><h1>01 &nbsp; Font end Skills</h1></div>
-          <div><h1>02 &nbsp; Back end Skills</h1></div>
-          <div><h1>03 &nbsp; Design Skills</h1></div>
-          <div><h1>04 &nbsp;Other</h1></div>
+          <div class="content  wow animated zoomIn">
+              <div class="font_end"><h1>01 &nbsp; Font end Skills</h1></div>
+            <div><h1>02 &nbsp; Back end Skills</h1></div>
+            <div><h1>03 &nbsp; Design Skills</h1></div>
+            <div><h1>04 &nbsp;Other</h1></div>
+          </div>
+        
         
 
         </div>
-        <div class="box6">
+        <div class="box6 wow animated fadeInRight delay-1s">
             <i class="fa fa-database back_end" aria-hidden="true"></i>
         </div>
-        <div class="box7">
+        <div class="box7 wow animated fadeInLeft">
             <i class="fa fa-html5 front_end" aria-hidden="true"></i>
 
         </div>
-        <div class="box8">
+        <div class="box8 wow animated fadeInRight delay-1s">
             <h4>nodeJS</h4>
             <div class="progress">
                 <div class="loader-container1"></div>
@@ -158,7 +159,7 @@
             
 
         </div>
-        <div class="box9">
+        <div class="box9 wow animated fadeInLeft">
           <h4>HTML5</h4>
             <div class="progress">
                 <div class="loader-container1"></div>
@@ -184,7 +185,7 @@
 
         </div>
         <div class="box10">
-          
+
         </div>
 
         <div class="box11">
@@ -242,6 +243,11 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="./js/app.js"></script>
+
+  <script src="./wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
  
 </body>
 </html>
