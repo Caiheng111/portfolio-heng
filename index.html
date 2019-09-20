@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Saira+Stencil+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+ 
   <!-- font awesome -->
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- css -->
   <link rel="stylesheet" href="./style/index.css">
   <!-- js animation -->
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+
+  <!-- animate css -->
+  <link rel="stylesheet" href="./style/animate.css">
+ 
+       
 
 
   <title>Portfolio/heng</title>
@@ -39,7 +46,7 @@
       </nav>
           <section class="sec1">
             <div class="content">
-                <div class="menu">
+                <div class="menu animated fadeInDown">
                     <span class="title">Menu</span>
                   <span></span>
                   <div class="blurred">
@@ -66,11 +73,11 @@
 
                 <div class="info">
           
-                 <h1>Oh hello</h1>
-                  <h4>I AM A DEVELOPER & A DESIGNER</h4>
+                 <h1 class="animated fadeInLeftBig">Oh hello</h1>
+                
                 </div>
               
-                <div class="computer">
+                <div class="computer animated fadeInDown">
                   <img src="./asset/work_bg.png" alt="background"  > 
                 </div>
 
@@ -90,23 +97,24 @@
 
       <div class="info">
           <div class="content">
-            <div class="intro">
+            <div class=" intro wow animated fadeInLeftBig delay-0.5s">
               <h1 class="hello">HELLO</h1>
               <h1>  I AM HENG</h1>
-              <h3>An entry-level web developer who is able to build Web sites from layout,
+              <h3 class="animated wow fadeInUp delay-0.5s">An entry-level web developer who is able to build Web sites from layout,
                   programming to UX. With abilities to develop and manage projects using
                   Git and the Agile. Skilled in conceptualizing, designing, development,
                   and deploying websites using the latest front-end techniques.</h3>
             </div>
       
+
             <div class="photo">
-              <img src="./asset/photo.png" alt="">
+              <img src="./asset/photo.png" alt="" class="wow animated bounceInRight delay-0.5s ">
               <div class="coder">
-                <div class="item1">
+                <div class="item1 wow animated zoomInRight delay-0.5s">
                   <h1> &lt; developer &gt;</h1>
                   <p>Full stack Developer who focuses on writing clean, <br> elegant and efficient code.</p>
                 </div>
-                <div class="item2">
+                <div class="item2 wow animated zoomInRight delay-0.5s">
                   <h2> &lt; designer &gt;</h2>
                   <p >UI/UX experiences</p>
                 </div>
@@ -118,6 +126,10 @@
 
     </div>
   </div>
+
+
+  <!-- back to top button -->
+  <button class="top" id="top"><i class="fa fa-chevron-up top_icon" aria-hidden="true"></i></button>
 
   <!-- section3 -->
   <footer>
@@ -154,9 +166,18 @@
   
 
 
-
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="./js/app.js"></script>
+  <script src="./wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 
+
+  
+  
 </body>
+
+
+
 </html>
