@@ -110,7 +110,7 @@ section .backfround img{
   padding-top:100px;
   position: absolute;
   top:-20px;
-  height: 100%;
+  min-height:100%;
   width: 100%;
   list-style: none;
   background: rgb(72,43,245);
@@ -125,12 +125,14 @@ section .backfround img{
   display:block;
   font-size:80px;
   font-weight: 900;
-  color:rgb(245,190,90);
-  font-family: 'Lato', sans-serif;
-  margin-bottom:40px;
+  font-family: 'Saira Stencil One', cursive;
+  font-stretch: expanded;
   text-decoration: none;
+  margin-bottom: 10px;
   z-index: 2;
-  transition: all 0.5s;
+  transition: all 0.5s;;
+  color:rgb(245,190,90);
+ 
 }
 
 .nav_links li a:hover{
@@ -237,7 +239,7 @@ section .backfround img{
 .box .content h2{
   font-family: 'Saira Stencil One', cursive;
   position: absolute;
-  top:-150px;
+  top:-160px;
   right:20px;
   font-size: 9em;
   color:#00C8FF;
@@ -246,7 +248,7 @@ section .backfround img{
 }
 
 .box:hover .content h2{
-  top:-230px;
+  top:-250px;
 }
 
 .box .content h3{
@@ -313,7 +315,7 @@ section .backfround img{
 }
 
 .container_three .blogs{
-  height: auto;
+
   /* height: 100%; */
   width: 100%;
   display: grid;
@@ -322,9 +324,10 @@ section .backfround img{
   grid-column-gap: 5%;
   grid-row-gap: 10%;
   border-top:1px solid #1b1363;
+
+
   padding-top:3%;
   position: relative;
-  /* border:1px solid  white; */
 }
 
 .container_three .blogs:before{

@@ -1,0 +1,267 @@
+
+
+
+
+
+
+/* @import "./responsive.css"; */
+@import "./menu.css";
+@import "../../style/footer.css";
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  cursor: url(../../asset/cursor.png),pointer;
+  overflow-x: hidden;
+}
+
+
+.hidden{
+  display: none;
+}
+
+
+.container_one{
+  min-height:97vh;
+  width: 100vw;
+  background: rgb(72,43,245);
+  background-attachment: fixed;
+
+}
+.logo_image{
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  padding: 4em 8em 0 8em;
+
+}
+
+.logo1{
+  position: fixed;
+  height: 100px;
+}
+
+.logo2{
+   position: absolute;
+   height: 100px;
+
+ }
+
+section .info{
+  margin-left:10%;
+
+}
+
+section .info span{
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  position: absolute;
+  top:520px;
+  margin-left:50px;
+  color:rgb(252,88,159);
+
+}
+
+section .info h1{
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 110px;
+  position: absolute;
+  top:580px;
+  margin-left:-10px;
+  color:rgb(252,88,159);
+
+}
+
+section .info .me{
+  font-family: 'Lato', sans-serif;
+  font-size: 110px;
+  position: absolute;
+  top:650px;
+  margin-left:10px;
+  color:rgb(252,88,159);
+
+}
+
+section .backfround{
+  position: absolute;
+  bottom:-10px;
+  right:40px;
+}
+
+section .backfround img{
+  height: 600px;
+  padding-bottom:40px;
+  padding-right: 10px;
+}
+
+.nav_links{
+  padding-left:300px;
+  padding-top:100px;
+  position: absolute;
+  top:-20px;
+  min-height: 100%;
+  width: 100%;
+  list-style: none;
+  background: rgb(252,88,159);
+  clip-path: circle(100px at 110% -20%);
+  -webkit-ip-path:circle(100px at 110% -10%);
+  transition: all 1s ease-out;
+
+}
+
+
+.nav_links li a{
+  display:block;
+  font-size:80px;
+  font-weight: 900;
+  color:rgb(72,43,245);
+  font-family: 'Saira Stencil One', cursive;
+  margin-bottom:10px;
+  font-stretch: expanded;
+  text-decoration: none;
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+.nav_links li a:hover{
+  color:rgb(24,22,95);
+
+}
+
+.nav_links.open{
+  clip-path: circle(2000px at 90% -10%);
+  -webkit-ip-path:circle(2000px at 90% -10%);
+  pointer-events: all;
+}
+
+
+/* section2 */
+
+
+
+.container_two{
+  min-height:100vh;
+  width: 100vw;
+  background: rgb(60,44,105);
+}
+ 
+.container_two .info{
+  height: 95%;
+  width: 100%;
+  margin:0 auto;
+  /* border:1px solid white; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.container_two .map{
+  margin-bottom:10%;
+  margin-top:10%;
+  border-radius: 5px;
+}
+
+.container_two .info .information{
+  height: auto;
+  text-align: center;
+  padding-top:13%;
+  color:white;
+
+}
+
+
+.container_two .information h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 5%;
+}
+
+.container_two .information h4{
+  color:wihte;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.container_two form{
+  height: auto;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  margin-top:10%;
+}
+
+.container_two textarea,.container_two input,.container_two button{
+  background: transparent;
+  outline:none;
+  border:1px solid white;
+  border-radius: 5px;
+
+}
+
+.container_two input{
+  display: block;
+  height: 25%;
+  width: 70%;
+  color:white;
+  font-size: 20px;
+  padding:5px;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+}
+
+
+
+
+
+.container_two textarea{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color:white;
+
+  height: 150px;
+  width: 70%;
+  margin-left:15%;
+  margin-bottom:5%;
+}
+
+.container_two .submit{
+  cursor: pointer;
+ margin-left:15%;
+  padding:5px;
+  height: 35px;
+  width: 20%;
+  color:white;
+  font-size: 20px;
+}
+
+.container_two .submit:hover{
+  cursor: pointer;
+ background: white;
+ color:rgb(60,44,105);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

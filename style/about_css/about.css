@@ -2,9 +2,9 @@
 
 
 
-@import "./responsive.css";
-@import "./about_css/cards.css";
-@import "./about_css/meun.css";
+/* @import "./responsive.css"; */
+@import "./cards.css";
+@import "./meun.css";
 
 
 
@@ -103,7 +103,7 @@ section .backfround img{
   padding-top:100px;
   position: absolute;
   top:-20px;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   list-style: none;
   background: #00C8FF;
@@ -143,7 +143,7 @@ section .backfround img{
 
 
 .container_two{
-  height:100vh;
+  height:90vh;
   width: 100vw;
   background: rgb(236,77,80);
   /* background-image: url("../asset/about_bg2.png");
@@ -321,11 +321,9 @@ section .backfround img{
 
 
 
-
-
 /* section3 */
 .container_three{
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   background: rgb(60,44,105);
 }
