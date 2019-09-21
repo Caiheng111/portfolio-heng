@@ -52,3 +52,44 @@ footer .right_info .copyright{
 }
 
 
+/* rsponsive */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  footer .content{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  footer .content .logo3{
+    margin-left:20px;
+
+  
+  }
+
+  footer .contact_icons .icon{
+  
+    margin-left:35px;
+   
+  }
+
+
+
+  
+
+ 
+
+
+
+
+/* footer */
+
+
+
+}

@@ -88,13 +88,13 @@ section .info .me{
 
 }
 
-section .backfround{
+section .background{
   position: absolute;
   bottom:-10px;
   right:40px;
 }
 
-section .backfround img{
+section .background img{
   height: 600px;
   /* padding-bottom:40px;
   padding-right: 10px; */

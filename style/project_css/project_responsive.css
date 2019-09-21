@@ -1,0 +1,188 @@
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+  /* section one */
+  html{
+    overflow-x: hidden;
+  }
+ 
+
+  .container_one{
+    overflow-y: hidden;
+   
+    overflow-x: hidden;
+    height: 100vh;
+  }
+ 
+
+  section .menu {
+    z-index: 20;
+    top:7%;
+  }
+  .nav_links{
+    padding-left:90px;
+    z-index: 10;
+  
+  }
+
+  .nav_links li a{
+    font-size:60px;
+    font-weight: 400;
+    margin-bottom:10px;
+  }
+
+  section .info h1{
+    font-size: 50px;
+    position: absolute;
+    top:80%;
+    margin-left:9%;
+  }
+
+  .logo_image{
+
+    height: 100vh;
+    padding: 3em 8em 0 3em;
+
+  }
+  .logo1{
+    position: absolute;
+    height: 100px;
+  }
+
+  section .background img{
+    height: 400px;
+  }
+
+  
+
+  section .background{
+    overflow: hidden;
+    top:30%;
+    left: -1%;
+   
+  }
+  section .background img{
+  
+    height: 400px;
+  }
+
+  .container_one .logo_image img{
+    z-index: 10;
+    height: 80px;
+  }
+
+  .container_two .logo_image img{
+    visibility: hidden;
+  }
+
+  .icon-scroll{
+    position: relative;
+    bottom:60px;
+    left:50%;
+   }
+
+/* section two */
+
+
+.container_two .info{
+  height: auto;
+  align-items: flex-start;
+
+  /* background: rgb(25,23,95); */
+
+
+}
+
+.container_two .info{
+  height: auto;
+}
+
+
+.container_two .logo_image{
+
+  padding-right: 10%;
+  min-height: 360vh;
+}
+
+.container_two .container{
+  padding-left: 10%;
+  display: grid;
+  grid-template-columns: 0.9fr;
+  grid-template-rows: repeat(5,2fr);
+  grid-row-gap: 5%;
+}
+
+.container_two .title h1{
+  margin-bottom: 30%;
+
+}
+
+
+/* section 3 */
+
+.container_three{
+  min-height: 440vh;
+}
+
+.container_three .logo_image{
+  padding-left: 16%;
+  padding-top:10%;
+  min-height: 440vh;
+}
+
+.container_three .blogs{
+  
+  
+
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows:repeat(6, 1fr) ;
+  grid-row-gap: 2%;
+  border-top:1px solid #1b1363;
+
+
+}
+
+
+.container_three .blogs .blog{
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column-reverse;
+
+  }
+
+  .container_three .blogs .blog span a{
+    margin-top:5%;
+   margin-left: 0;
+  }
+  .container_three .blogs:before{
+    
+    width: 200px;
+  }
+
+  .container_three .title{
+    padding-top:3%;
+    margin-bottom: 3%;
+    margin-left:30%;
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
