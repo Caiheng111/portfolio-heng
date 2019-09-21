@@ -1,5 +1,6 @@
 
 // import simpleParallax from 'simple-parallax-js';
+// import simpleParallax from 'simple-parallax-js';
 
 const hambuger=document.querySelector(".menu_hambuger");
 const navLinks=document.querySelector(".nav_links");
