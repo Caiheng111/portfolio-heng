@@ -96,8 +96,8 @@ section .backfround{
 
 section .backfround img{
   height: 600px;
-  padding-bottom:40px;
-  padding-right: 10px;
+  /* padding-bottom:40px;
+  padding-right: 10px; */
 }
 
 .nav_links{
