@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 body{
-  cursor: url(../../asset/cursor.png),pointer;
+  /* cursor: url(../../asset/cursor.png),pointer; */
   overflow-x: hidden;
   background: rgb(25,23,95);
 

@@ -1,14 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 900px) {
 
 
@@ -51,7 +41,7 @@
     font-size: 60px;
     position: absolute;
     bottom:20px;
-    left:60px;
+    left:50px;
     margin-left:20px;
   }
 
@@ -100,21 +90,21 @@
 } */
 
 
-
+.container_two{
+  height: 1300px;
+}
 
 .container_two .logo_image{
   padding:0;
   padding-top:100px;
   padding-left: 20px;
-  height: 1350px;
-
+  height: 1300px;
 
 }
 
 
 .container_two .infor{
   background-size: 300px;
-
   background-position: 50% 30%;
   display: grid;
   grid-template-columns: repeat(3,100px);

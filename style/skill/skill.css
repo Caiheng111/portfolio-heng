@@ -19,7 +19,7 @@ html{
   box-sizing: border-box;
 }
 body{
-  cursor: url(../../asset/cursor.png),pointer;
+  /* cursor: url(../../asset/cursor.png),pointer; */
   overflow-x: hidden;
 
 }
@@ -29,14 +29,14 @@ body{
 
 
 .container_one{
-  min-height:100vh;
+  height:830px;
   width: 100vw;
   background: rgb(236,77,80);
   background-attachment: fixed;
 
 }
 .logo_image{
-  height: 100vh;
+  height:830px;
   overflow: hidden;
   position: relative;
   padding: 4em 8em 0 8em;
@@ -140,7 +140,7 @@ section .background img{
 
 
 .container_two{
-  min-height:145vh;
+  height: 1450px;;
   width: 100vw;
  /* background: rgb(60,44,105); */
  background: rgb(60,44,105);
@@ -149,7 +149,8 @@ section .background img{
 
 
 .container_two .logo_image{
-  height: 100%;
+  padding-top:150px;
+  height: 1300px;
  
 
 }

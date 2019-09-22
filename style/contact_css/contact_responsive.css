@@ -14,8 +14,8 @@
  
 
   .container_one{
-    overflow-x: hidden;
-    height: 100vh;
+
+    height:800px;
   }
  
 
@@ -39,11 +39,12 @@
   section .info h1{
     font-size: 50px;
     position: absolute;
-    top:80%;
-    margin-left:-10px;
+    bottom:20px;
+    margin-left:9%;
   }
 
   .logo_image{
+    height: 800px;
     padding: 3em 8em 0 3em;
 
   }
@@ -58,8 +59,9 @@
 
   
   section .background{
+    height: 500px;
     overflow: hidden;
-    top:30%;
+    top:200px;
     left: -1%;
    
   }

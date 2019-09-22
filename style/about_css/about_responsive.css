@@ -1,16 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 900px) {
 
 
@@ -100,17 +90,6 @@
 
 
 
-
-/* 
-.container_two .logo_image{
-  padding:0;
-  padding-top:100px;
-  padding-left: 20px;
-  height: 1350px;
-
-
-} */
-
 .container_two{
   height: 1600px;
 }
@@ -184,7 +163,7 @@
 
   display: grid;
   grid-template-columns: 400px;
-  grid-template-rows: repeat(2, 500px);
+  grid-template-rows: repeat(2, 550px);
 }
 
 .container_four .logo_image{
@@ -195,31 +174,34 @@
 .interest_cards{
   padding-top:100px;
   padding-left:0;
+  margin-bottom:100px;
 }
 
-.container_four .intro{
-  padding-top:0;
+
+
+
+.container_four .infor .intro{
+  padding-top:50px;
   margin-left: -20px;
 }
 
 
 .loop-wrap {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   margin: 30px auto;
   overflow: hidden;
 }
 
 .loop-image{
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 
 .container_four .infor .intro::before{
- 
-  bottom:80px;
+  bottom:200px;
 }
 
 

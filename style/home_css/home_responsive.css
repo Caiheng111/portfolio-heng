@@ -46,7 +46,7 @@
   }
 
   section .info h1{
-    font-size: 60px;
+    font-size: 65px;
     position: absolute;
     bottom:20px;
     left:50px;
@@ -54,9 +54,8 @@
   }
 
   .container_one .logo_image{
- 
     height: 780px;
-    overflow: hidden;
+    
     padding: 3em 8em 0 3em;
 
   }
@@ -68,8 +67,6 @@
 
   section .computer{
     overflow-x: hidden;
-  
- 
     top:30%;
     left: 6%;
    
