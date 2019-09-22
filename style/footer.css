@@ -52,12 +52,10 @@ footer .right_info .copyright{
 }
 
 
+
+
+
 /* rsponsive */
-
-
-
-
-
 
 
 
@@ -79,17 +77,14 @@ footer .right_info .copyright{
    
   }
 
+  footer .right_info .copyright{
+    margin-left:10px;
+
+  }
+
 
 
   
-
- 
-
-
-
-
-/* footer */
-
 
 
 }

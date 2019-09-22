@@ -112,32 +112,115 @@
 } */
 
 .container_two{
-  height: 1500px;
+  height: 1600px;
 }
 
 .container_two .logo_image{
   padding:0;
-  height: 1500px;
+  height: 1600px;
 
 
 }
 
 .container_two .infor{
-  height: 90%;
-  width: 103%;
-  margin:0 auto;
-  /* border: 1px solid #1b1363; */
+  margin-bottom: 50px;
+  height: 1600px;
+
   display: grid;
-  grid-template-columns: 500px;
+  grid-template-columns: 380px;
   grid-template-rows: 500px 500px;
 
 }
-  
 
-#myChart{
-  height: 400px;
+.container_two .part_information{
+
+  padding:0;
+  padding-top: 50px;
 }
 
+.container_two .part_information .info_left{
+  padding-left:40px;
+
+}
+
+.container_two .part_information .info_right{
+  padding-left:30px;
+
+}
+
+.container_two .intro{
+  margin-top:50px;
+  
+  padding:30px;
+  padding-left:40px;
+}
+
+  
+.container_two .intro p{
+  text-align: left;
+}
+
+.container_two .details{
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: repeat(4,50px);
+  grid-row-gap:10px;
+  margin-bottom: 60px;
+
+}
+
+
+
+
+
+
+.container_four{
+  height: 1000px;
+  width: 100vw;
+  background: rgb(245,190,90);
+
+}
+.container_four .infor{
+
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: repeat(2, 500px);
+}
+
+.container_four .logo_image{
+  height: 1000px;
+  padding:0;
+}
+
+.interest_cards{
+  padding-top:100px;
+  padding-left:0;
+}
+
+.container_four .intro{
+  padding-top:0;
+  margin-left: -20px;
+}
+
+
+.loop-wrap {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.loop-image{
+  width: 250px;
+  height: 250px;
+}
+
+
+.container_four .infor .intro::before{
+ 
+  bottom:80px;
+}
 
 
 

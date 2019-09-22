@@ -2,9 +2,9 @@
 
 
 
-/* @import "./responsive.css"; */
 @import "./cards.css";
 @import "./meun.css";
+@import "../footer.css";
 
 
 
@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 body{
-  cursor: url(../asset/cursor.png),pointer;
+  /* cursor: url(../asset/cursor.png),pointer; */
   overflow-x: hidden;
 
 
@@ -26,7 +26,7 @@ body{
 
 
 .container_one{
-  height:97vh;
+  height: 800px;
   width: 100vw;
   background: #1b1363;
   background-attachment: fixed;
@@ -98,29 +98,33 @@ section .background img{
   padding-right: 10px;
 }
 
-.nav_links{
-  padding-left:300px;
-  padding-top:100px;
-  position: absolute;
-  top:-20px;
-  min-height: 100%;
-  width: 100%;
-  list-style: none;
-  background: #00C8FF;
-  clip-path: circle(100px at 110% -20%);
-  -webkit-ip-path:circle(100px at 110% -10%);
-  transition: all 1s ease-out;
 
+.nav_links{
+    padding-left:300px;
+    padding-top:100px;
+    position: absolute;
+    top:-20px;
+    min-height: 100%;
+    width: 100%;
+    background: #00C8FF;
+    list-style: none;
+
+    clip-path: circle(100px at 130% -20%);
+    -webkit-ip-path:circle(100px at 130% -10%);
+    transition: all 1s ease-out;
+  
 }
 
 
 .nav_links li a{
+
+  color:#1b1363;
   display:block;
   font-size:80px;
   font-weight: 900;
-  color:#1b1363;
-  font-family: 'Lato', sans-serif;
-  margin-bottom:40px;
+  font-family: 'Saira Stencil One', cursive;
+  margin-bottom:10px;
+  font-stretch: expanded;
   text-decoration: none;
   z-index: 2;
   transition: all 0.5s;
@@ -322,11 +326,7 @@ section .background img{
 
 
 /* section3 */
-/* .container_three{
-  height: 95vh;
-  width: 100vw;
-  background: rgb(60,44,105);
-} */
+
 
 
 
@@ -344,15 +344,12 @@ section .background img{
   margin:0 auto;
   width: 100%;
   height: 70%;
-  /* border: 1px solid white; */
+
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
 }
 
-/* .container_four .infor .interest_cards{
-  border:1px solid white;
-} */
 
 
 .container_four .infor .intro{
@@ -401,75 +398,6 @@ section .background img{
   color:#1b1363;
   font-family: 'Lato', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* footer */
-
-footer .container{
-  width: 100vw;
-  height: 20vh;
-  background: #000;
-  display: flex;
-  align-items: center;
-
-}
-
-footer .container .content{
-  height: 80%;
-  width: 90%;
-  /* border:1px solid white; */
-}
-
-footer .content .logo3{
-  margin-left:140px;
-  height: 12vh;
-
-}
-footer .content{
-  display: flex;
-  justify-content: space-between;
-}
-
-footer .contact_icons{
-  display: flex;
-  align-items: center;
-}
-
-footer .contact_icons .icon{
-  font-size: 25px;
-  color:white;
-  margin-left:80px;
-  margin-right: 20px;
-}
-
-
-
-footer .right_info{
-  color:white;
-  padding-top:30px;
-}
-footer .right_info .copyright{
-  font-size: 14px;
-  font-family: 'Lato', sans-serif;
-  margin-left:150px;
-  margin-top:20px;
-}
-
-
-
-
-
-
-
 
 
 
