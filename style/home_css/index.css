@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 body{
+
   /* cursor: url(../asset/cursor.png),pointer; */
   overflow-x: hidden;
   
@@ -89,8 +90,6 @@ section .computer{
 }
 section .computer img{
   height: 600px;
-  /* padding-bottom:40px;
-  padding-right: 10px; */
 }
 
 
@@ -133,9 +132,10 @@ section .computer img{
 }
 
 .nav_links.open{
+  cursor: pointer;
   clip-path: circle(2000px at 90% -10%);
   -webkit-ip-path:circle(2000px at 90% -10%);
-  pointer-events: all;
+  pointer-events: none;
 }
 
 
