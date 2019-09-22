@@ -25,14 +25,14 @@ body{
 
 
 .container_one{
-  min-height:100vh;
+  height: 840px;
   width: 100vw;
   background: rgb(72,43,245);
   background-attachment: fixed;
 
 }
 .logo_image{
-  height: 100vh;
+  height: 840px;
   overflow: hidden;
   position: relative;
   padding: 4em 8em 0 8em;
@@ -69,7 +69,7 @@ section .info h1{
   font-family: 'Saira Stencil One', cursive;
   font-size: 130px;
   position: absolute;
-  top:550px;
+  top:580px;
   margin-left:20px;
   color:rgb(252,88,159);
 
@@ -90,8 +90,8 @@ section .computer{
 }
 section .computer img{
   height: 600px;
-  padding-bottom:40px;
-  padding-right: 10px;
+  /* padding-bottom:40px;
+  padding-right: 10px; */
 }
 
 
@@ -140,7 +140,7 @@ section .computer img{
 
 
 .container_two{
-  height:100vh;
+  height:850px;
   width: 100%;
   background: rgb(60,44,105);
 }
