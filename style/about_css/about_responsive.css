@@ -1,0 +1,155 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+  /* section one */
+  html{
+    overflow-x: hidden;
+  }
+
+  .icon-scroll{
+    position: relative;
+    bottom:-20px;
+    left:50%;
+   }
+ 
+
+  .container_one{
+  
+    height: 780px;
+  }
+ 
+
+  section .menu {
+    z-index: 20;
+    top:7%;
+  }
+  .nav_links{
+    padding-top: 120px;
+    padding-left:90px;
+    z-index: 10;
+  
+  }
+
+  .nav_links li a{
+    font-size:60px;
+    font-weight: 400;
+    margin-bottom:10px;
+  }
+
+  section .info h1{
+    font-size: 54px;
+    position: absolute;
+    bottom:20px;
+    left:30px;
+    margin-left:20px;
+  }
+
+  .container_one .logo_image{
+ 
+    height: 780px;
+    overflow: hidden;
+    padding: 3em 8em 0 3em;
+
+  }
+  .logo1{
+    position: absolute;
+    
+  }
+
+  section .background{
+    overflow-x: hidden;
+  
+ 
+    top:30%;
+    left: 2%;
+   
+  }
+  section .background img{
+    height: 400px;
+  }
+
+  .container_one .logo_image img{
+    z-index: 10;
+    height: 80px;
+  }
+
+  .container_two .logo_image img{
+    visibility: hidden;
+  }
+
+  .icon-scroll{
+    position: relative;
+    bottom:60px;
+    left:50%;
+   }
+
+/* section two */
+
+
+
+
+/* 
+.container_two .logo_image{
+  padding:0;
+  padding-top:100px;
+  padding-left: 20px;
+  height: 1350px;
+
+
+} */
+
+.container_two{
+  height: 1500px;
+}
+
+.container_two .logo_image{
+  padding:0;
+  height: 1500px;
+
+
+}
+
+.container_two .infor{
+  height: 90%;
+  width: 103%;
+  margin:0 auto;
+  /* border: 1px solid #1b1363; */
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 500px 500px;
+
+}
+  
+
+#myChart{
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
