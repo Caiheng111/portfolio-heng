@@ -27,7 +27,7 @@ body{
 .container_one{
   height: 840px;
   width: 100vw;
-  background: rgb(72,43,245);
+  background: black;
   background-attachment: fixed;
 
 }
