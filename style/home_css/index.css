@@ -96,6 +96,7 @@ section .computer img{
 
 
 .nav_links{
+  cursor: pointer;
   padding-left:300px;
   padding-top:100px;
   position: absolute;
@@ -107,6 +108,7 @@ section .computer img{
   clip-path: circle(100px at 130% -20%);
   -webkit-ip-path:circle(100px at 130% -10%);
   transition: all 1s ease-out;
+  pointer-events: none;
 }
 
 
@@ -121,7 +123,10 @@ section .computer img{
   text-decoration: none;
   z-index: 2;
   transition: all 0.5s;
+
 }
+
+
 
 .nav_links li a:hover{
   color:rgb(24,22,95);

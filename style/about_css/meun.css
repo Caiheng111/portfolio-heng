@@ -15,8 +15,8 @@ section .menu {
 section .menu .title{
   position: absolute;
   height: 60%;
-  top:50%;
-  left:50%;
+  top:25%;
+  left:1%;
   font-size: 18px;
   font-weight: 500;
   font-family: 'Lato', sans-serif;

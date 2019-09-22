@@ -23,6 +23,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <!-- url link logo -->
   <link rel="icon" href="./asset/url_logo.png" type="image/x-icon"/>
+   <!-- animate css -->
+   <link rel="stylesheet" href="./style/animate.css">
   
   <!-- SIR -->
   <!-- <link integrity="sha384-7DXeLzPBNHIsfw8Lx01wcKRSGgrHq6iUugpxCDRjB05ayY3Zwa019dBQNiOjwC5n" rel="stylesheet" href="./style/about_css/about.css"> -->
@@ -55,19 +57,18 @@
       <section class="sec1">
         <div class="content">
             <div class="menu">
-                <span class="title">Menu</span>
-              <span></span>
-              <div class="blurred">
+                <span class="title animated fadeInDown">Menu</span>
                 <span></span>
-                <span></span>
+                <div class="blurred">
+                  <span></span>
+                  <span></span>
+              </div>
             </div>
-          
-      
-            </div>
+
             <div class="info">
-              <h1>ABOUT ME</h1>
+              <h1 class="animated fadeInLeftBig">ABOUT ME</h1>
             </div>
-            <div class="background">
+            <div class="background animated fadeInDown">
               <img src="./asset/about_bg1.png" alt="background"  > 
             </div>
             <div class="icon-scroll">  
@@ -87,13 +88,13 @@
           <a href="index.html"><img src="./asset/about_logo2.png" alt="logo" class="logo2"></a>
 
           <div class="infor">
-               <div class="pie-chart">
+               <div class="pie-chart wow animated fadeInDownBig">
                  <div class="cavas">
                      <canvas id="myChart"></canvas>
                  </div>
 
-                 <div class="part_information">
-                   <div class="info_left">
+                 <div class="part_information wow animated fadeInLeft">
+                   <div class="info_left ">
                      <h2>80% developer</h2>
                      <h4>HTML5/CSS3</h4>
                      <h4>JavaScript</h4>
@@ -115,7 +116,7 @@
               </div>
               <div class="intro">
 
-                <div class="introduction">
+                <div class="introduction wow animated fadeInDownBig">
                   <h1>About Me</h1>
                 <h4>Hi, I’m Heng Cai.A Full-stack Developer and Designer based in Melbourne, Australia</h4>
                 <p>An entry-level web developer who is able to build Web sites from layout,
@@ -125,7 +126,7 @@
                     Git and the Agile. Skilled in conceptualizing.</p>
                 </div>
 
-                <div class="details">
+                <div class="details wow animated bounceInRight">
                   <div class="details_item">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span>Location:&nbsp;&nbsp;318 Russell Street,Melbourne VIC 3000</span>
                   </div>
@@ -141,7 +142,7 @@
 
                 </div>
 
-                <a href="./asset/Resume- Heng Cai.pdf">Download Resume</a>
+                <a href="./asset/Resume- Heng Cai.pdf" class="wow animated jello">Download Resume</a>
               </div>
           </div>
       </div>
@@ -155,7 +156,7 @@
         <a href="index.html"><img src="./asset/about_logo2.png" alt="logo" class="logo2"></a>
         <div class="infor">
       
-         <div class="interest_cards">
+         <div class="interest_cards wow animated fadeInLeft">
             <div class="loop-wrap">
                 <div class="loop-images-container">
                     <img src="./asset/photographer.png" alt="" class="loop-image">
@@ -166,7 +167,7 @@
                 </div>
             </div>
          </div>
-         <div class="intro">
+         <div class="intro  wow animated fadeInRight">
             <h1>My Interests</h1>
             <h4>I love to cook(to eat)</h4>
             <h4>I love to take photos</h4>
@@ -179,15 +180,6 @@
 
     </div>
 </div>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -225,6 +217,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="./js/app.js"></script>
   <script src="./js/pie-chart.js"></script>
+
+
+  <script src="./wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
  
 </body>
 </html>
