@@ -65,6 +65,7 @@ section .menu .title{
   border-radius: 100%;
   transition: 1.5s cubic-bezier(0,2,.61,-0.05);
 }
+
 .blurred > span:nth-of-type(2) {
    position: absolute;
    width: 50px;
