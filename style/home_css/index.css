@@ -16,8 +16,6 @@ body{
   /* cursor: url(../asset/cursor.png),pointer; */
   overflow-x: hidden;
   
-
- 
 }
 .hidden{
   display: none;
@@ -135,7 +133,7 @@ section .computer img{
   cursor: pointer;
   clip-path: circle(2000px at 90% -10%);
   -webkit-ip-path:circle(2000px at 90% -10%);
-  pointer-events: none;
+  pointer-events: all;
 }
 
 

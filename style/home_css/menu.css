@@ -10,7 +10,7 @@ section .menu {
 }
 
 section .menu .title{
-  cursor: pointer;
+
   position: absolute;
   height: 60%;
   top:50%;
