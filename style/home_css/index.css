@@ -125,9 +125,9 @@ section .computer img{
 
 
 
-.nav_links li a:hover{
+/* .nav_links li a:hover{
   color:rgb(24,22,95);
-}
+} */
 
 .nav_links.open{
   cursor: pointer;

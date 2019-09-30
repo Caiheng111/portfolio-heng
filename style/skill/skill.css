@@ -123,10 +123,10 @@ section .background img{
  
 }
 
-.nav_links li a:hover{
+/* .nav_links li a:hover{
   color:rgb(245,190,90);
 
-}
+} */
 
 .nav_links.open{
   clip-path: circle(2000px at 90% -10%);
