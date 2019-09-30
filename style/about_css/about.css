@@ -116,7 +116,7 @@ section .background img{
 
 
 .nav_links li a{
-  color:#1b1363;
+  color:rgb(59,37,206);
   display:block;
   font-size:80px;
   font-weight: 900;
@@ -129,7 +129,7 @@ section .background img{
  
 }
 
-.nav_links li:hover{
+.nav_links li a:hover{
   color:rgb(24,22,95);
 }
 
