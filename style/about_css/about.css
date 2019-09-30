@@ -129,13 +129,13 @@ section .background img{
  
 }
 
-/* .nav_links li:hover{
+.nav_links li:hover{
   color:rgb(24,22,95);
-} */
+}
 
 .nav_links.open{
-  clip-path: circle(2000px at 90% -10%);
-  -webkit-ip-path:circle(2000px at 90% -10%);
+  clip-path: circle(1800px at 90% -10%);
+  -webkit-ip-path:circle(1800px at 90% -10%);
   pointer-events: all;
 }
 

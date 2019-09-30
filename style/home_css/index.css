@@ -4,7 +4,9 @@
 
 @import "./menu.css";
 @import "../footer.css";
-
+html{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 
 *{
   margin:0;
@@ -12,9 +14,8 @@
   box-sizing: border-box;
 }
 body{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
  
-
-  /* cursor: url(../asset/cursor.png),pointer; */
   overflow-x: hidden;
   
 }
@@ -27,7 +28,7 @@ body{
   height: 830px;
   width: 100vw;
   background: rgb(72,43,245);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 
 }
 .logo_image{
@@ -94,7 +95,6 @@ section .computer img{
 
 
 .nav_links{
-  cursor: pointer;
   padding-left:300px;
   padding-top:100px;
   position: absolute;
@@ -120,20 +120,19 @@ section .computer img{
   font-stretch: expanded;
   text-decoration: none;
   z-index: 2;
-  transition: all 0.5s;
+  transition: all 0.3;
 
 }
 
 
-/* 
+
 .nav_links li a:hover{
   color:rgb(24,22,95);
-} */
+}
 
 .nav_links.open{
-  cursor: pointer;
-  clip-path: circle(2000px at 90% -10%);
-  -webkit-ip-path:circle(2000px at 90% -10%);
+  clip-path: circle(1800px at 90% -10%);
+  -webkit-ip-path:circle(1800px at 90% -10%);
   pointer-events: all;
 }
 
