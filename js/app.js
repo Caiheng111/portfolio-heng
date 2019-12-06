@@ -20,11 +20,12 @@ const iconScroll=document.querySelector(".icon-scroll");
 
 menu.addEventListener("click",()=>{
   navLinks.classList.toggle("open");
-  navInfo.classList.toggle("hidden")
+
+  
+  navInfo.classList.toggle("hidden");
   iconScroll.classList.toggle("hidden");
 
 })
-
 
 
 
