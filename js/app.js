@@ -19,6 +19,13 @@ const iconScroll=document.querySelector(".icon-scroll");
 
 
 menu.addEventListener("click",()=>{
+
+  // if (!navLinks.classList.contains('open')) {
+  //   navLinks.classList.add('open');
+  // }else{
+  //   navLinks.classList.remove('open');
+  // }
+
   navLinks.classList.toggle("open");
 
   

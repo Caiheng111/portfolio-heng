@@ -99,6 +99,7 @@ section .computer img{
 
 
 .nav_links{
+  cursor: pointer;
   padding-left:300px;
   padding-top:100px;
   position: absolute;
@@ -134,7 +135,7 @@ section .computer img{
   color:rgb(24,22,95);
 }
 
-.nav_links.open{
+.open{
   clip-path: circle(1800px at 90% -10%);
   -webkit-ip-path:circle(1800px at 90% -10%);
   pointer-events: all;
